@@ -1,0 +1,29 @@
+POST http://localhost:3030/videos
+Content-Type: application/json
+
+{
+    "title": "Video teste",
+    "description": "Video  description",
+    "duration": 10
+}
+
+###
+GET http://localhost:3030/videos
+
+
+###
+GET http://localhost:3030/videos?search=node
+
+
+###
+PUT http://localhost:3030/videos/1
+Content-Type: application/json
+
+{
+    "title": "Video node 1",
+    "description": "Video 1 description",
+    "duration": 10
+}
+
+###
+DELETE http://localhost:3030/videos/2
