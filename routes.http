@@ -1,4 +1,4 @@
-POST http://localhost:3030/videos
+POST http://localhost:3333/videos
 Content-Type: application/json
 
 {
@@ -8,15 +8,15 @@ Content-Type: application/json
 }
 
 ###
-GET http://localhost:3030/videos
+GET http://localhost:3333/videos
 
 
 ###
-GET http://localhost:3030/videos?search=node
+GET http://localhost:3333/videos?search=node
 
 
 ###
-PUT http://localhost:3030/videos/1
+PUT http://localhost:3333/videos/1
 Content-Type: application/json
 
 {
@@ -26,4 +26,4 @@ Content-Type: application/json
 }
 
 ###
-DELETE http://localhost:3030/videos/2
+DELETE http://localhost:3333/videos/2
